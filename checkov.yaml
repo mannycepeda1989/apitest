@@ -1,0 +1,86 @@
+Executing the following command(s):
+set -e; checkov -d ./src --hard-fail-on HIGH --framework sca_package --bc-api-key **************::************** --prisma-api-url https://api.prismacloud.io --output spdx --output json --output-file-path "SCA/" --repo-id "Checkov/BAGS/Build Rms.Debt.Api"
+{
+    "passed": 0,
+    "failed": 0,
+    "skipped": 0,
+    "parsing_errors": 0,
+    "resource_count": 0,
+    "checkov_version": "3.2.133"
+}
+
+--- OUTPUT DELIMITER ---
+
+## Document Information
+SPDXVersion: SPDX-2.3
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: checkov-sbom
+DocumentNamespace: https://spdx.org/spdxdocs/checkov-sbom-3.2.133-92d06785-7221-48e8-99f3-eae73405c459
+
+## Creation Information
+Creator: Tool: checkov
+Creator: Organization: bridgecrew (meet@bridgecrew.io)
+Created: 2024-06-11T18:11:48Z
+
+## Package Information
+PackageName: ag.bootstrap
+SPDXID: SPDXRef-ag.bootstrap
+PackageVersion: 1.4.1-ft-docker.14
+PackageFileName: /Ag.Rms.Debt.Api/Ag.Rms.Debt.Api.csproj
+PackageDownloadLocation: NONE
+FilesAnalyzed: true
+
+## Package Information
+PackageName: ag.cleancode
+SPDXID: SPDXRef-ag.cleancode
+PackageVersion: 2.1.0
+PackageFileName: /Ag.Rms.Debt.Api/Ag.Rms.Debt.Api.csproj
+PackageDownloadLocation: NONE
+FilesAnalyzed: true
+
+## Package Information
+PackageName: amazon.aspnetcore.identity.cognito
+SPDXID: SPDXRef-amazon.aspnetcore.identity.cognito
+PackageVersion: 3.0.1
+PackageFileName: /Ag.Rms.Debt.Api/Ag.Rms.Debt.Api.csproj
+PackageDownloadLocation: NONE
+FilesAnalyzed: true
+
+## Package Information
+PackageName: microsoft.aspnetcore.authentication.jwtbearer
+SPDXID: SPDXRef-microsoft.aspnetcore.authentication.jwtbearer
+PackageVersion: 6.0.23
+PackageFileName: /Ag.Rms.Debt.Api/Ag.Rms.Debt.Api.csproj
+PackageDownloadLocation: NONE
+FilesAnalyzed: true
+
+## Package Information
+PackageName: microsoft.extensions.hosting.windowsservices
+SPDXID: SPDXRef-microsoft.extensions.hosting.windowsservices
+PackageVersion: 7.0.0
+PackageFileName: /Ag.Rms.Debt.Api/Ag.Rms.Debt.Api.csproj
+PackageDownloadLocation: NONE
+FilesAnalyzed: true
+
+## Package Information
+PackageName: microsoft.visualstudio.azure.containers.tools.targets
+SPDXID: SPDXRef-microsoft.visualstudio.azure.containers.tools.targets
+PackageVersion: 1.17.0
+PackageFileName: /Ag.Rms.Debt.Api/Ag.Rms.Debt.Api.csproj
+PackageDownloadLocation: NONE
+FilesAnalyzed: true
+
+## Package Information
+PackageName: ag.cleancode
+SPDXID: SPDXRef-ag.cleancode
+PackageVersion: 2.1.0
+PackageFileName: /Ag.Rms.Debt.Integration.Test/Ag.Rms.Debt.Integration.Test.csproj
+PackageDownloadLocation: NONE
+FilesAnalyzed: true
+
+## Package Information
+PackageName: awssdk.cognitoidentityprovider
+SPDXID: SPDXRef-awssdk.cognitoidentityprovider
+PackageVersion: 3.7.203.14
+PackageFileName: /Ag.Rms.Debt.Integration.Test/Ag.Rms.Debt.Integration.Test.csproj
